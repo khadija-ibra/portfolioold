@@ -1,0 +1,209 @@
+
+{
+    box-sizing: border-box;
+}
+
+.navbar-toggler {
+    margin-left: 8.5rem;
+    margin-top: 2rem;
+}
+
+.container-fluid {
+    background-color: white;
+    padding: 2rem;
+    max-width: 375px;
+    
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.masthead {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/cover.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 5rem;
+  
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.photos img{
+/*
+    margin-left: rem;
+    margin-right: rem;
+*/
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.masthead h1 {
+
+    font-family: 'Futura PT','Helvetica', 'Arial', sans-serif;
+    font-size: 1.5rem;
+    margin: 1rem 0 1rem 2rem;
+    color: black;
+    top: 3rem;
+}
+
+.masthead p {
+    margin-left: 2rem;
+}
+
+.gd p {
+    
+}
+
+.learn-more {
+    font-family: 'Futura PT','Helvetica', 'Arial', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.8rem;
+    border-style: solid;
+    padding: 0.8rem;
+    border-width: thin;
+    border-radius: 2rem;
+}
+
+.learn-more:hover {
+    background-color: black;
+    color: white;
+}
+
+
+.logo {
+    width: 18%;
+    padding-left: 1rem;
+    margin-left: 8rem;
+}
+
+
+.footer {
+    padding: 4rem;
+    text-align: center;
+    color: #000000;
+    font-family: 'Futura PT','Helvetica', 'Arial', sans-serif;
+    font-size: 0.8rem;
+    background-color: white;
+}
+
+.copyright {
+    margin-top: 0.8rem;
+}
+
+.linkedin img{
+    width: 10%;
+    margin-right: 1rem;
+}
+
+.email img {
+    width: 10%;
+}
+
+@media all and (min-width: 36rem) {
+    
+    
+
+      
+ .masthead h1 {
+    font-family: 'Futura PT','Helvetica', 'Arial', sans-serif;
+    font-size: 4rem;
+    margin: 1rem 0 2rem 4rem;
+    color: black;
+    text-align: left;
+    font-style: bold; 
+}
+    
+
+
+.learn-more {
+     font-size: 1rem;
+     padding: 1rem;
+     width: 20rem;
+     border-radius: 5rem;
+    margin-left: 4rem;
+}
+
+.navbar ul {
+ margin-left: -3rem
+}
+    
+
+
+.logo {
+	width: 5rem;
+    margin-left: -22rem;
+    
+}
+    
+
+.container {
+    margin-top: 1rem;
+}
+
+
+.masthead p {
+    font-size: 1rem;
+    margin: 0 0 1.666rem 0;
+    margin-left: 4rem;
+    line-height: 2rem;
+    font-family: 'Futura PT','Helvetica', 'Arial', sans-serif;
+}
+    
+.ab p {
+        margin-left: 5rem;
+}
+    
+    .gd p {
+        
+    }
+    
+.footer {
+     background-color: #efefef;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-around;
+     padding-top: 2rem;
+     padding-bottom: 2rem;
+}
+    
+    .footer p {
+        margin-left: 4rem;
+    }
+
+.social-media {
+     text-align: left;   
+}
+    
+.linkedin img{
+     width: 30%;   
+}
+
+.email img{
+     width: 30%;   
+}
+    
+.photos img {
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+  
+    
+    
+    
+    
+/*    closing bracket */
+}
